@@ -1,4 +1,4 @@
 idf_component_register(SRCS "console_log.c"
                     INCLUDE_DIRS "."
-                    PRIV_REQUIRES console
+					REQUIRES console console_simple_init
                     WHOLE_ARCHIVE)
